@@ -2,10 +2,13 @@
 using namespace std;
 
 void foo() {}
-void bar() {}
+void bar() {
+    cout<<"It's bar!"<<endl;
+}
 void abc() {}
 
 int main() {
     cout << "Hello, World!" << endl;
+    bar();
     return 0;
 }

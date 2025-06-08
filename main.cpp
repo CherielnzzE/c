@@ -7,11 +7,14 @@ void foo() {
 void bar() {
     cout<<"It's bar!"<<endl;
 }
-void abc() {}
+void abc() {
+    cout << "hi,abc" << endl;
+}
 
 int main() {
     cout << "Hello, World!" << endl;
-    bar();
     foo();
+    bar();
+    abc();
     return 0;
 }
